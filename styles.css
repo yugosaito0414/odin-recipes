@@ -2,3 +2,51 @@ img{
     height: 400px;
     width: 300px;
 }
+
+.header{
+    height: 80px;
+    background-color: cornflowerblue;
+}
+
+.header-logo a{
+    text-decoration: none;
+}
+
+.header-logo{
+    font-size: 30px;
+    float: left;
+    padding: 20px 30px;
+    
+}
+
+.header-list li{
+list-style: none;
+float: left;
+padding: 35px 40px;
+}
+
+.main{
+    height: 980px;
+    background-color: darkgrey;
+}
+
+.footer{
+    height: 90px;
+    background-color: darkorchid;
+    padding: 20px;
+}
+
+.footer-logo{
+    font-size: 23px;
+    float: left ;
+
+}
+.footer-list li{
+    list-style:none;
+    flex-flow: column;
+    padding: 0px 8px 0px 450px;
+    background-color: khaki;
+    
+
+}
+
